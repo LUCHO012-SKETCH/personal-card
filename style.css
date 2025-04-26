@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.card {
+    position: relative;
+    margin-top: 2rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .card > *:not(svg) {
+    position: relative;
+    z-index: 1;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+
+  svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    }
+
+  .name h1{
+    margin: 0;
+    font-size:xx-large;
+  }
+
+  .name h2{
+    margin: 0;
+  }
+
+  .name {
+    color: #2c3e50;
+    display: block;
+  }
+
+  img{
+    width: 70%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote {
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 1rem;
+  }
+
+  a{
+    position: relative;
+    color: #EDDD53;
+  }
+
+  @media (max-width: 600px) {
+    .card {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .quote {
+      font-size: 1rem;
+    }
+  }
