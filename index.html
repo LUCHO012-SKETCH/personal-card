@@ -4,30 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <defs>
-              <linearGradient id="waveGradient" gradientTransform="rotate(160)">
-                <stop offset="0%" stop-color="#2A7B9B" />
-                <stop offset="35%" stop-color="#57C785" />
-                <stop offset="94%" stop-color="#EDDD53" />
-              </linearGradient>
-            </defs>
-            <path fill="url(#waveGradient)" fill-opacity="1"
-              d="M0,288L48,272C96,256,192,224,288,181.3C384,139,480,85,576,58.7C672,32,768,32,864,53.3C960,75,1056,117,1152,133.3C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-          </svg>          
+      <div class="bloque"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" style="
+        height: 150px;"">
+          <defs>
+            <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="53%" style="stop-color: rgba(240, 211, 80, 1);"></stop>
+              <stop offset="72%" style="stop-color: rgba(252, 176, 69, 1);"></stop>
+              <stop offset="100%" style="stop-color: rgba(253, 29, 29, 1);"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#waveGradient)" fill-opacity="1"
+          d="M0,288L48,272C96,256,192,224,288,181.3C384,139,480,85,576,58.7C672,32,768,32,864,53.3C960,75,1056,117,1152,133.3C1248,149,1344,139,1392,133.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+          </svg>     
+          <img src="imagen1.png" alt="Luis Garzón">     
         <div class="name">
             <h1>Luis Fernando</h1>
-            <h2>Garzón López</h2>
+            <h1>Garzón López</h1>
+            <h3>Software Eng.</h3>
         </div>
-        <h3>Software Eng.</h3>
-        <img src="imagen1.png" alt="Luis Garzón">
-        <p class="quote">“SOY QUIEN CREA LO QUE NADIE MÁS SE ATREVE A CREAR”</p>
-        <a href="mailto:Luisfer123garzon@gmail.com">Luisfer123garzon@gmail.com</a3>
+        
+            <div class="socialIcons">
+              <a href="https://www.linkedin.com/in/luis-garzon-55233a1b5/" target="_blank"><i class="fa-brands fa-linkedin"></i>LUIS GARZON</a>
+              <a href="https://github.com/LUCHO012-SKETCH" target="_blank"><i class="fa-brands fa-github"></i> LUCHO012-SKETCH</a>
+              <a href="mailto:Luisfer123garzon@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Luisfer123garzon@gmail.com</a>
+            </div>
+        <div class="information">
+          <p>phone: (351) 933 017 040</p>
+          <a href="CvLuis Garzon Lopez.pdf" download="CvLuisGarzonLopez.pdf" title="download cv"> curriculum</a>
+        </div>
     </div>
 </body>
 </html>
